@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">sprint_marvel_serasa</string>
+    <string name="feature_character">FEATURE CHARACTER</string>
+    <string name="marvel_character_list">MARVEL CHARACTER LIST</string>
+    <string name="search_characters">Search characters</string>
+    <string name="biography">Biography</string>
+    <string name="heroes_not_found">Heroes Not Found</string>
+    <string name="havent_description">Haven\'t description</string>
+</resources>

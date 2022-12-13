@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MarvelToolBar">
+        <attr name="image_logo" format="reference" />
+        <attr name="image_arrow_back" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MarvelDetailHero">
+        <attr name="name_biography" format="string" />
+        <attr name="visibility_biography" format="enum">
+            <enum name="gone" value="8" />
+            <enum name="invisible" value="4" />
+            <enum name="visible" value="0" />
+        </attr>
+        <attr name="image_gradient" format="reference" />
+        <attr name="visibility_gradient" format="enum">
+            <enum name="gone" value="8" />
+            <enum name="invisible" value="4" />
+            <enum name="visible" value="0" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MarvelEditText">
+        <attr name="startIconDrawable" format="reference" />
+        <attr name="boxBackgroundColor" format="color" />
+        <attr name="imeOptions" format="enum">
+            <enum name="normal" value="0x00000000" />
+            <enum name="actionSearch" value="0x00000003" />
+            <enum name="actionSend" value="0x00000004" />
+        </attr>
+        <attr name="inputType" format="enum">
+            <enum name="text" value="0x00000001" />
+            <enum name="textCapWords" value="0x00002001" />
+            <enum name="textAutoCorrect" value="0x00008001" />
+        </attr>
+        <attr name="maxLines" format="integer" min="0" />
+    </declare-styleable>
+    <declare-styleable name="MarvelCardView">
+        <attr name="cardCornerRadius" format="dimension" />
+        <attr name="textAlignment" format="enum">
+            <enum name="textStart" value="2" />
+            <enum name="textEnd" value="3" />
+            <enum name="center" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>

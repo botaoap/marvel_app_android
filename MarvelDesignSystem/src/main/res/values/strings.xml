@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="biography">Biography</string>
+    <string name="havent_description">Haven\'t description</string>
+    <string name="search_characters">Search characters</string>
+</resources>
